@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GNU General Public License v3.0"
+
+[[mods]]
+modId="wild"
+version="1A0N0"
+displayName="The Wild Update Mod"
+logoFile="examplemod.png"
+#credits="Thanks for this example mod goes to Java"
+authors="Nemi1230"
+description='''
+Mod to add elements added or changed in 1.19-1.19.4 to past Minecraft.
+
+-From the official page-
+CRAFT YOUR PATH
+Experience Minecraft in a whole new light—or dark.
+Evade the warden in the deep dark if you dare.
+Explore the swamps together with frogs and tadpoles.
+Ask an allay to collect supplies to fill the chest on your boat.
+Build with sculk, mud, and mangrove wood.
+The choices are endless, and all of them yours.
+'''
+
+[[dependencies.wild]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.wild]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
